@@ -1,0 +1,45 @@
+main{
+    padding-inline: 120px;
+    height: 100vh;
+   display: grid;
+   align-content: center;
+   justify-content: center;
+}
+
+.card{
+    background-color: #0079d61b;
+    width: fit-content;
+    border: 5px dashed #0078d6;
+    padding-block: 40px;
+    padding-inline: 5%;
+    border-radius: 30px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.avatar{
+    width: 30%;
+    height: auto
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 35px;
+    justify-content: space-around;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+b{
+    color:#002036;
+    font-weight: 500;
+}
+
+
