@@ -1,34 +1,17 @@
 main{
-    padding-inline: 120px;
-    height: 100vh;
-   display: grid;
-   align-content: center;
-   justify-content: center;
+    margin: 60px
 }
-
-.card{
-    background-color: #0079d61b;
-    width: fit-content;
-    border: 5px dashed #0078d6;
-    padding-block: 40px;
-    padding-inline: 5%;
-    border-radius: 30px;
+.menu{
     display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.avatar{
-    width: 30%;
-    height: auto
-}
-
-.user-info{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 35px;
-    justify-content: space-around;
+button{
+    background-color:#0078d6;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 20px;
 }
 
 p{
@@ -42,4 +25,18 @@ b{
     font-weight: 500;
 }
 
+.about-me-text, .slills-text, .contacts-text{
+    display: none;
+    padding: 20px;
+    font-size: 40px
+}
 
+
+.slills-text{
+    margin-left: 180px
+}
+
+
+.contacts-text{
+    margin-left: 300px
+}

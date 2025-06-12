@@ -7,20 +7,39 @@
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
     <title>KOD</title>
 </head>
-<body class="wrap">
+<body>
     <header></header>
     <main>
-        <article class="card wrap">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Microsoft_Account.svg/1024px-Microsoft_Account.svg.png" alt="avatar" class="avatar">
-            <div class="user-info">
+        <div class="menu">
+            <button type="submit" id="aboutme-btn">Обо мне</button>
+            <button type="submit" id="skills-btn">Навыки</button>
+            <button type="submit" id="contacts-btn">Контакты</button>
+        </div>
+        <div class="menu-text">
+             <div class="about-me-text" id="aboutme-text">
                 <p><b>Имя:</b>Иванов Иван</p>
                 <p><b>Возраст:</b>16</p>
                 <p><b>Класс:</b>10 класс</p>
                 <p><b>Город/страна:</b>Москва/Россия</p>
                 <p><b>Любимые предметы:</b>Программирование, информатика, математика</p>
             </div>
-        </article>
-        
+            <div class="slills-text" id="skills-text">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Английский язык B2</li>
+                    <li>Git</li>
+                    <li>React</li>
+                </ul>
+            </div>
+           
+            <div class="contacts-text" id="contacts-text">
+                <p><b>Почта:</b>12345678@gmail.com</p>
+                <p><b>Телефон:</b>+71234567</p>
+                <p><b>Телеграм:</b>@qwerty</p>
+            </div>
+        </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
