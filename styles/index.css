@@ -1,35 +1,29 @@
+body{
+    background-color: #f6ecdf;
+}
+
 main{
-    margin: 60px
+    margin: 70px;
 }
 
-.todolist{
+.block{
     display: flex;
-    flex-direction: column;
-    gap: 15px
+    justify-content: center;
+    align-items: center;
+    gap: 70px
 }
 
-.list{
-    display: flex;
-    flex-direction: column;
-    gap: 15px
+h1{
+    font-size: 60px;
+    text-decoration: underline wavy #dab079;
 }
 
-button{
-    background-color:#0078d6;
-    color: white;
-    padding: 15px;
-    font-size: 30px;
-    border-radius: 20px;
-    max-width: fit-content;
-}
-
-ul{
-    font-size: 40px;
-    margin-left: 60px;
-}
-
-input{
-    font-size: 40px;
+img{
     width: 500px;
-    border: 2px black solid
+    height: auto;
+    border: 10px dotted #dab079;
+}
+.text{
+    font-size: 30px;
+    max-width: 700px;
 }
