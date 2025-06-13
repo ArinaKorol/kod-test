@@ -2,15 +2,9 @@
 &display=swap
 &subset=cyrillic-ext 
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
-/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
 @import url(https://fonts.googleapis.com/css?family=Alumni+Sans+SC:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
-
-@import url(https://fonts.googleapis.com/css?family=Inria+Sans:300,300italic,regular,italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono:regular);
-@import url(https://fonts.googleapis.com/css?family=Gantari:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-@import url(https://fonts.googleapis.com/css?family=Fustat:200,300,regular,500,600,700,800);
 *,
 *::before,
 *::after {
