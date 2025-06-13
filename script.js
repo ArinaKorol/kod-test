@@ -13,6 +13,8 @@ aboutme_btn.addEventListener("click", function() {
     contacts_text.style.display = 'none';
 
     aboutme_btn.style.backgroundColor = '#005799'
+    skills_btn.style.backgroundColor = '#0078d6'
+    contacts_btn.style.backgroundColor = '#0078d6'
 });
 
 skills_btn.addEventListener("click", function() {
@@ -21,6 +23,8 @@ skills_btn.addEventListener("click", function() {
     contacts_text.style.display = 'none';
 
     skills_btn.style.backgroundColor = '#005799'
+    aboutme_btn.style.backgroundColor = '#0078d6'
+    contacts_btn.style.backgroundColor = '#0078d6'
 })
 
 contacts_btn.addEventListener("click", function() {
@@ -29,4 +33,6 @@ contacts_btn.addEventListener("click", function() {
     aboutme_text.style.display = 'none';
 
     contacts_btn.style.backgroundColor = '#005799'
+    aboutme_btn.style.backgroundColor = '#0078d6'
+    skills_btn.style.backgroundColor = '#0078d6'
 })
