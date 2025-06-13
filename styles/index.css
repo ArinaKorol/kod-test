@@ -1,6 +1,15 @@
+header{
+    color: white;
+    background-color: #0078d6;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px
+}
+
 main{
     margin: 60px
 }
+
 .menu{
     display: flex;
     gap: 20px;
@@ -31,11 +40,9 @@ b{
     font-size: 40px
 }
 
-
 .slills-text{
     margin-left: 180px
 }
-
 
 .contacts-text{
     margin-left: 300px
