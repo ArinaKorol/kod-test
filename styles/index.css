@@ -2,7 +2,13 @@ main{
     margin: 60px
 }
 
-.year-block{
+.todolist{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.list{
     display: flex;
     flex-direction: column;
     gap: 15px
@@ -17,15 +23,13 @@ button{
     max-width: fit-content;
 }
 
-p{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+ul{
     font-size: 40px;
+    margin-left: 60px;
 }
 
 input{
     font-size: 40px;
-    width: 100px;
+    width: 500px;
     border: 2px black solid
 }
