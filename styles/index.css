@@ -1,42 +1,31 @@
 main{
     margin: 60px
 }
-.menu{
+
+.year-block{
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 15px
 }
 
 button{
     background-color:#0078d6;
     color: white;
-    padding: 20px;
-    font-size: 40px;
+    padding: 15px;
+    font-size: 30px;
     border-radius: 20px;
+    max-width: fit-content;
 }
 
 p{
     display: flex;
     flex-direction: row;
     gap: 8px;
+    font-size: 40px;
 }
 
-b{
-    color:#002036;
-    font-weight: 500;
-}
-
-.about-me-text, .slills-text, .contacts-text{
-    display: none;
-    padding: 20px;
-    font-size: 40px
-}
-
-
-.slills-text{
-    margin-left: 180px
-}
-
-
-.contacts-text{
-    margin-left: 300px
+input{
+    font-size: 40px;
+    width: 100px;
+    border: 2px black solid
 }
